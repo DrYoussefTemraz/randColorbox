@@ -1,12 +1,15 @@
-import Box from "./Box.js";
+import React, { Component } from "react";
+import BoxContainer from "./BoxContainer";
 import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <Box />
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className='App'>
+        <BoxContainer />
+      </div>
+    );
+  }
 }
 
 export default App;
